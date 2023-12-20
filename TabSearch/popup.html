@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tab Searcher</title>
+    <style>
+        /* Styling for the search results */
+        #results div {
+            cursor: pointer;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            transition: background-color 0.3s ease;
+        }
+        #results div:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Search input box -->
+    <input type="text" id="searchBox" placeholder="Search tabs...">
+    <!-- Container for displaying search results -->
+    <div id="results"></div>
+
+    <!-- JavaScript file for handling search functionality -->
+    <script src="popup.js"></script>
+</body>
+</html>
